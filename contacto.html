@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--enlace con css-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--SEO-->
+    <meta name="description" content="ferreteria y barraca , articulos y herramienas para la empresa y el hogar, soluciones en construccion y todo tipo de reparacion">
+    <meta name="keywords" content="ferreteria, barraca, herramientas, construccion, electricidad, sanitaria">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Contacto - herramientas, maerial y articulos para la empresa y el hogar"> 
+    <meta property="og:url" content="">
+    <meta property="og:image" content="imagenes/imagen5.jpg">
+    <meta property="og:description" content="ferreteria y barraca , articulos y herramienas para la empresa y el hogar, soluciones en construccion y todo tipo de reparacion">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Contacto - herramientas, maerial y articulos para la empresa y el hogar</title>
+</head>
+<body>
+    
+    <header class="titulo">
+        <div>
+          <h1>FERRETERIA Y BARRACA <br>
+            LA PINZA</h1>
+         <h2>TODO PARA SU HOGAR, COMERCIO U OFICINA, SU MEJOR OPCION</h2>
+         </div>
+         <div><a href="index.html">
+            <img src="imagenes/imagen5.jpg" alt="imagen ferreteria" title="Inicio" width="100%">
+          </a> </div>
+     </header>
+          
+          
+     <nav class="menu">
+        <ul class="nav nav-pills">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">PRODUCTOS</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">HERRAMIENTAS</a>
+                  <a class="dropdown-item" href="#">CONSTRUCCION</a>
+                  <a class="dropdown-item" href="#">SANITARIA</a>
+                  <a class="dropdown-item" href="#">ILUMNINACION</a>
+                  <a class="dropdown-item" href="#">PARA EL HOGAR</a>
+                  <a class="dropdown-item" href="#">OTROS</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nuestra_empresa.html">NUESRA EMPRESA</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="local.html">LOCAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nuestras_marcas.html">NUESTRAS MARCAS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+          </ul>
+    </nav>
+            
+            
+            <main class="container" height="900px" align="Left">
+                <form action="enviar*php" method="POST" enctype="multipart/form-data">
+
+                    <fieldset>
+                        <legend>PON TUS DATOS</legend>
+
+                        <label for="nombre">NOMBRE:</label>
+                        <input type="text" name="nombre" maxlength="50" >
+                        
+                        <br>
+
+                        <label for="apellido">APELLIDO:</label>
+                        <input type="text" name="apellido" maxlength="50">
+
+                        <br>
+
+                        <label for="email">EMAIL:</label>
+                        <input type="text" name="email" maxlength="50">
+
+                        <br>
+
+                        <label for="mensaje" >MENSAJE:</label>
+                        <textarea name="mensaje" id=""  maxlength="100"></textarea>
+
+                        <br>
+
+                            <input type="submit" name="sumit" value="ENVIAR">
+
+                            <input type="reset" name="reset" value="LIMPIAR">
+
+                        </fieldset>
+
+                        </form> 
+
+                        <br>
+                        <br>
+
+                        <form action="enviar*ph" method="POST" enctype="multipart/form-data">
+                        
+                        <h2>SUSCRIBASE</h2>
+
+                        <h3>RECIBA NUESTRAS ULTIMAS NOVEDADES</h3>
+
+                    
+                        <label for="nombreyapellido">NOMBRE Y APELLIDO:</label>
+                        <input type="text" name="nombreyapellido" maxlength="100" >
+
+                        <br>
+
+                        <label for="edad">EDAD:</label>
+                        <input type="text" name="edad" maxlength="50">
+
+                        <br>
+
+                        <label for="email">CORREO ELECTRONICO:</label>
+                        <input type="text" name="email" maxlength="50">
+
+
+                        <br>
+
+                        <label for="password">CONTRASEÑA:</label>
+                        <input type="password">
+
+                        <br>
+
+                        <div>Masculino</div>
+                        <input type="radio" name="sexo" value="Masculino">
+
+                        <div>Femenino</div>
+                        <input type="radio" name="sexo" value="Femenino">
+
+                        <div>Otro</div>
+                        <input type="radio" name="sexo" value="Otro">
+
+
+                        <br>
+
+                        <h4>NOTIFICACIONES</h4>
+
+                        <select name="notificaciones" id="">
+                            <option value="semanal">SEMANAL</option>
+                            <option value="quincenal">QUINCENAL</option>
+                            <option value="mensual">MENSUAL</option>
+
+                        </select>
+
+                        <br>
+                        <br>
+
+                        <div>QUIERES MAS INFORMACION DE NUESTRAS MARCAS</div>
+                            <input type="checkbox" name="marcas" value="1">
+
+                            <br>
+
+                            <input type="submit" name="sumit" value="SUSCRIBIR">
+
+                            <input type="reset" name="reset" value="BORRAR">
+
+                                </form>
+            </main>
+          
+          <br>
+          
+            <footer>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="medios_de_pago.html">MEDIOS DE PAGO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="terminos_y_condiciones.html">TERMINOS Y CONDICIONES</a>
+                  </li>
+                </ul>
+               <p>
+                Tel: 1234-567-897    email: lapinza@ferreteria.com.uy 
+               </p>
+                 
+
+              </footer>    
+              
+              <br>
+    
+</body>
+</html>

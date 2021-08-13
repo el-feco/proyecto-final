@@ -1,0 +1,35 @@
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+.titulo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  color: black;
+}
+.titulo h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-style: italic;
+}
+
+.articulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: medium;
+  text-align: center;
+  margin: 20px;
+}
+
+.menu {
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=estilos%20css.map */
+
+
+ 

@@ -1,0 +1,64 @@
+.titulo {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+.titulo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+  padding-top: 40px;
+}
+.titulo h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-style: italic;
+  padding-top: 40px;
+}
+
+.articulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: medium;
+  text-align: center;
+  margin: 20px;
+}
+
+.menu {
+  background-color: lightgray;
+}
+
+footer {
+  background-color: lightgray;
+}
+footer ul {
+  list-style: square;
+}
+footer li {
+  float: left;
+}
+footer li a {
+  padding: 5x;
+  color: blue;
+  font-size: 16px;
+  text-decoration: none;
+}
+footer p {
+  text-align: right;
+}
+
+@media screen and (min-width: 340px) and (max-width: 850px) {
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgray;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
